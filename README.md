@@ -34,20 +34,20 @@ Usage of whoxysubs:
 
 1. **Search by Company:**
    ```bash
-   echo "Dell Inc." | go run main.go -s company
+   echo "Dell Inc." | whoxysubs -s company
    ```
 
 2. **Search by Email:**
    ```bash
-   echo "dns-admin@google.com" | go run main.go -s email
+   echo "dns-admin@google.com" | whoxysubs -s email
    ```
 
 3. **Search by Keyword:**
    ```bash
-   echo "dell.com" | go run main.go -s keyword
+   echo "dell.com" | whoxysubs -s keyword
    ```
 
 4. **Search by Name:**
    ```bash
-   echo "elon musk" | go run main.go -s name
+   echo "elon musk" | whoxysubs -s name
    ```
